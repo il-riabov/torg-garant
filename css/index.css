@@ -1,0 +1,162 @@
+.main { display: flex; align-items: center; justify-content: center; height: 100vh; width: 100% ;
+}
+.main-container { margin: 0px 15px; border-radius: 10px; padding: 50px; text-align: center;
+}
+
+.advantages { width: 100%; display: flex; justify-content: center;
+}
+.advantages-container { display: flex; align-items: center; flex-direction: column;
+}
+.advantages-blocks { display: flex; flex-wrap: wrap; justify-content: center;
+}
+.block { box-shadow: 0px 0px 8px 1px rgb(110, 110, 110); border-radius: 10px;
+    display: flex; flex-direction: column; align-items: center; width: 300px; margin: 20px;
+    padding: 30px 15px; transition: all 0.3s ease;
+}
+.block:hover {  transform: scale(1.05)}
+.advantages-img { width: 200px;
+}
+.advantages-txt { text-align: center; margin-top: 50px; font-size: 25px;
+}
+
+.range { width: 100%; display: flex; justify-content: center; margin-top: 100px;
+}
+.range-container { max-width: 1320px; display: flex; flex-direction: column; 
+    align-items: center; margin: 0px 20px;
+}
+.range-txt { margin-top: 20px; font-size: 25px;
+}
+.slc { padding: 10px 15px; border-bottom: 1px solid black;
+    margin: 20px 0px;
+}
+b { font-family: bold; }
+
+.certificate { width: 100%; display: flex; justify-content: center; margin-top: 100px;
+}
+.certificate-container { max-width: 1320px; display: flex; flex-direction: column;
+    align-items: center; margin: 0px 20px;
+}
+.certificate-block { margin-top: 20px; display: flex; overflow-x: scroll; padding: 30px;
+    border: 3px solid #656565; border-radius: 10px;
+}
+.certificate-block::-webkit-scrollbar { height: 9px; }
+.certificate-block::-webkit-scrollbar-thumb {
+    background-color: #656565; 
+}
+.crt-img { width: 40%;
+}
+
+.about, .contact, .product { width: 100%; display: flex; justify-content: center; }
+.about-container, .contact-container {max-width: 1320px; margin: 0px 20px; margin-top: 100px;}
+.contact-container { display: flex; flex-direction: column; align-items: center; }
+.block-abt { border: 1px solid #656565; border-radius: 10px; padding: 15px 30px; margin-top: 20px;}
+.block-art_img { display: flex; justify-content: center; flex-wrap: wrap; margin-top: 20px;}
+.img-art { border-radius: 20px; margin: 10px 20px;}
+
+.block-cnt_container {
+    display: flex; flex-wrap: wrap; justify-content: center;
+}
+.block-contact {margin: 10px; width: 400px; border: 1px solid #656565; border-radius: 10px; padding: 20px;
+}
+
+h3 { font-size: 30px; font-weight: 900; margin-bottom: 20px;}
+
+.product-container {max-width: 1320px; 
+    border-radius: 10px;display: flex; flex-direction: column; margin: 0px 20px;
+}
+.product-block { padding: 50px;
+}
+.product-txt { margin-right: 30px; display: flex; flex-direction: column; justify-content: center;
+}
+.product-slide { display: flex; justify-content: center; margin-top: 20px; flex-wrap: wrap;
+}
+.slide-block { 
+}
+.product-block_href { background-color: #656565; border-radius: 0px 0px 10px 10px; 
+    color: white; padding: 15px 0px; text-align: center;
+}
+
+.product { flex-direction: column; align-items: center;}
+
+.one, .two, .three, .four, .five {display:none; flex-direction: column; align-items: center;}
+
+.content { width: 400px; display: flex; justify-content: center;
+}
+.slide-txt { text-align: center; margin: 10px 0px; }
+.slide { width: 300px; height: 300px; margin-top: 15px;
+}
+.center { width: 100%; display: flex; justify-content: center; margin: 15px 0px; 
+}
+.btn {margin: 5px; background-color: #656565; padding: 5px 40px; border-radius: 10px;
+    color: white;
+}
+.blc-revers { flex-direction: row-reverse; }
+
+.mySlides { cursor: pointer; }
+
+
+.background_form { position: fixed; background-color: gray; 
+    width: 100%; height: 100%; top: 0; opacity: 50%; display: none; z-index: 51;
+}
+.forms-blocks { width: 100%; height: 100%; position: fixed; top: 0; display: none; align-items: center; justify-content: center; 
+    z-index: 52;}
+.block_form { background-color: white; padding: 30px 30px; border-radius: 15px; display: none; margin: 0px 20px;
+}
+.cnt-close { width: 100%; display: flex; justify-content: flex-end;
+}
+.btn-close { width: 20px; cursor: pointer; margin-right: 20px;
+}
+.title_form { text-align: center; font-size: 25px; margin: 30px 0px;
+}
+#form { display: flex; flex-direction: column; align-items: center;}
+.inp-block { display: flex; margin: 20px 0px; align-items: center;
+}
+.img-inp { width: 20px; height: 20px; margin-right: 15px;
+}
+.input_form { border: 1px solid gray; border-radius: 15px; padding: 15px 15px; margin: 15px 0px; width: 100%;
+}
+.btn_form, .btn_form_ok { background-color: #656565; color: white; width: 100%; padding: 10px 0px; 
+    margin-top: 30px; border-radius: 7px; text-align: center; cursor: pointer;
+}
+
+.block_submitted-form {
+    background-color: white; padding: 20px; width: 300px; border-radius: 15px; display: none;
+}
+.thanks { text-align: center;
+}
+
+.card-valtwo { border: 1px solid black; margin: 10px; border-radius: 20px;
+}
+.img-valtwo { width: 300px; height: 300px; border-radius: 19px 19px 0px 0px; 
+}
+.txt-valtwo { text-align: center; font-family: bold; margin: 20px 0px;
+}
+.btn-cardvaltwo { background-color: black; color: white; padding: 10px; border-radius: 20px; text-align: center; margin: 0px 10px 10px 10px; }
+
+
+@media screen and (max-width: 850px) {
+    .product-block { flex-direction: column; padding: 50px 15px; }
+    .product-txt { margin-right: 0px; width: 100%; }
+    .product-slide { margin-top: 50px;}
+    .slide-block { width: 100%; }
+
+    .content { width: 100%; padding: 0px 15px;}
+    .slide { width: 200px; }
+}
+
+@media screen and (max-width: 550px) {
+    .img-art { width: 100%; }
+    
+    h1 { font-size: 30px; text-align: center;}
+    .h1-txt { text-align: center;  }
+    .main-container { padding: 20px 5px;}
+    .block { margin: 20px 0px;}
+    .crt-img { width: 110%; }
+    .certificate-block { padding: 0px; }
+}
+
+@media screen and (max-width: 460px) {
+    .block-contact { width: 300px; }
+    .block_form { padding: 30px 10px; }
+    .card-valtwo { margin: 10px 0px; }
+}
